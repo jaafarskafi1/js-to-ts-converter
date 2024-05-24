@@ -1,0 +1,16 @@
+.App {
+    text-align: center;
+  }
+
+  .App h1 {
+    color: #333;
+  }
+
+  .App ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .App li {
+    margin: 10px 0;
+  }
