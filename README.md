@@ -1,11 +1,11 @@
 # js-to-ts-converter
 
-A tool to automatically convert JavaScript code to TypeScript using large language models (e.g., OpenAI's GPT-3).
+A tool to automatically convert JavaScript code to TypeScript using large language models (e.g., OpenAI's GPT-4).
 
 ## Features
 
 - Convert JavaScript code to TypeScript
-- Leverages OpenAI's GPT-3 for accurate conversion
+- Leverages OpenAI's GPT-4 for accurate conversion
 - Command-Line Interface (CLI) for easy use
 - Automatically handles common TypeScript conversions and annotations
 
@@ -39,12 +39,12 @@ A tool to automatically convert JavaScript code to TypeScript using large langua
    node src/index.js convert path/to/your/javascript-file.js
    ```
 
-2. The converted TypeScript file will be created in the same directory with a `.ts` extension.
+2. The converted TypeScript file will be created in a new directory with a `.ts` extension.
 
 ## Example
 
-Convert a simple JavaScript file:
+Convert a directory's js files:
 
 ```sh
-node src/index.js convert example.js
+node src/index.js convert your_directory_name
 ```
