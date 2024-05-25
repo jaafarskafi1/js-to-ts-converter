@@ -1,0 +1,31 @@
+import React from "react";
+import "./UserList.css";
+
+const UserList = ({ users }) => {
+  return (
+    <div className="user-list">
+      <div className="user-list-table">
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>ID</th>
+            </tr>
+          </thead>
+          <tbody>
+            {users.map((user) => (
+              <tr key={user._id}>
+                <td>{user.name}</td>
+                <td>{user.email}</td>
+                <td>{user._id}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+};
+
+export default UserList;
